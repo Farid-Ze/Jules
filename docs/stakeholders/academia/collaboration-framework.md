@@ -4,7 +4,7 @@ summary: "How academia partners collaborate with MerajutASA within the penta-hel
 audience: ["academia","administrators"]
 stakeholder: ["academia"]
 owner: "@academic-collab-lead"
-status: "draft"
+status: "in_review"
 version: "0.1.0"
 last_reviewed: "2025-08-08"
 tags: ["child-safety","accessibility","compliance","governance"]
@@ -13,20 +13,26 @@ tags: ["child-safety","accessibility","compliance","governance"]
 # Academic Collaboration Framework
 
 ## Purpose
-Define a safe, effective, and compliant framework for university and research partners to collaborate with MerajutASA, aligned to the platform’s multi‑stakeholder model and child‑safety mission.
+This document defines a safe, effective, and compliant framework for university and research partners to collaborate with MerajutASA. It is aligned with the platform’s multi-stakeholder model and its core mission of child safety.
 
 ## Scope & Audience
-- Audience: academic leaders (deans/centers), faculty, PIs, students, research admins.
-- Scope: research projects, student engagements, publications, grant pursuits, and knowledge transfer using de‑identified data and sandbox APIs.
+- **Audience**: This guide is for academic leaders (deans, center directors), faculty, Principal Investigators (PIs), students, and research administrators.
+- **Scope**: This framework covers research projects, student engagements, publications, grant pursuits, and knowledge transfer that use de-identified data and sandbox APIs.
+
+## Prerequisites
+Before using this framework, we recommend that you familiarize yourself with the overall project by reading:
+- The main project [README.md](../../../README.md) for a high-level overview.
+- The project's [VISION.md](../../../VISION.md) to understand our mission and goals.
 
 ## Key Facts (Grounded)
-- Parent framework and stakeholder governance – see ../collaboration-framework.md and ../governance-model.md
-- Ethics & child protection – see ./ethics-guidelines.md
-- Data access & de‑identification – see ./research-data-access.md and ./data-anonymization.md
-- API usage – see ./api-documentation.md
-- Documentation, style, translation, reviews – see ../../STYLE_GUIDE.md, ../../TRANSLATION_GUIDE.md, ../../REVIEW_PROCESS.md, ADR‑011 ../../api/decisions/011-documentation-platform.md
-- Security & accessibility baselines – ADR‑013 ../../api/decisions/013-security-framework.md, ADR‑014 ../../api/decisions/014-accessibility-standards.md
-- Privacy by Design & auditability – ../../architecture/compliance/privacy-by-design.md, ../../architecture/compliance/audit-trail.md
+This framework is built upon several core documents. Please ensure you are familiar with the following:
+- **Overall Governance**: Our [Stakeholder Collaboration Framework](../collaboration-framework.md) and [Governance Model](../governance-model.md).
+- **Ethics & Safety**: The foundational [Ethics & Child Protection Guidelines](./ethics-guidelines.md).
+- **Data Handling**: The procedures for [Data Access](./research-data-access.md) and [Data De-identification](./data-anonymization.md).
+- **API Usage**: The technical specifications for our [Academic APIs](./api-documentation.md).
+- **Platform Standards**: Our repository-wide [Style Guide](../../STYLE_GUIDE.md), [Translation Guide](../../TRANSLATION_GUIDE.md), and [Review Process](../../REVIEW_PROCESS.md).
+- **Core Architectural Decisions**: Our standards for [Documentation (ADR-011)](../../architecture/decisions/011-documentation-platform.md), [Security (ADR-013)](../../architecture/decisions/013-security-framework.md), and [Accessibility (ADR-014)](../../architecture/decisions/014-accessibility-standards.md).
+- **Compliance**: Our principles of [Privacy by Design](../../architecture/compliance/privacy-by-design.md) and our [Audit Trail capabilities](../../architecture/compliance/audit-trail.md).
 
 ## Collaboration model
 - Principles: child‑first, evidence‑based, privacy‑preserving, documentation‑first, accessibility by default.

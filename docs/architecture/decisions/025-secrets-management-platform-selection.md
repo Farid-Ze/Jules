@@ -398,7 +398,7 @@ Service Reliability:
 ### Stakeholder Resources
 - [Government Security Compliance Framework](../../stakeholders/government/security-compliance.md)
 - [Business Partnership Security Requirements](../../stakeholders/business/security-requirements.md)
-- [Academic Research Data Security Guidelines](../../stakeholders/academia/data-security.md)
+- [Consolidated Academic Security Guidelines](../../stakeholders/academia/academic-security-guidelines.md)
 
 ---
 
