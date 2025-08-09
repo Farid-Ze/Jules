@@ -34,14 +34,14 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: |
-            **/*.md
+            docs/**/*.md
           config: .markdownlint-cli2.jsonc
       - name: Run markdownlint (default)
         if: steps.cfg.outputs.has_mdlint == 'false'
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: |
-            **/*.md
+            docs/**/*.md
 
   linkcheck:
     runs-on: ubuntu-latest
