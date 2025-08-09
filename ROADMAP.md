@@ -38,20 +38,30 @@ Provide transparent visibility into platform development priorities that advance
 
 ## Milestones
 
-### Short-term: Q1 2025 — Platform Infrastructure Foundation
-**Goal**: Establish robust deployment and monitoring infrastructure supporting reliable child welfare service delivery
+### Short-term: Q1 2025 — Bandung Pilot Launch & Community Onboarding
+**Goal**: To validate the MerajutASA platform's core functionality and value proposition by successfully onboarding all orphanages in Bandung, establishing `MERAJUTASA.id` as their primary portal for stakeholder collaboration. This milestone serves as the first concrete step towards the strategic objective of onboarding 100 orphanages across Indonesia ([Source: `VISION.md`](./VISION.md)).
+- **Deliverables**:
+  - **Orphanage Onboarding**: Achieve >90% onboarding rate for all identified orphanages within the Bandung region.
+  - **Stakeholder Engagement**: Establish formal collaboration with key Bandung-level government agencies (e.g., Dinas Sosial) and community leaders.
+  - **Community Launch**: Execute a targeted awareness campaign for local donors, volunteers, and media partners in the Bandung area.
+  - **Feedback & Iteration**: Collect and synthesize feedback from all pilot participants to create a prioritized backlog for Q2 2025 development.
+- **Success Criteria**: >80% of onboarded orphanages actively using the platform weekly; measurable increase in local donation and volunteer engagement; 3+ formal stakeholder partnerships established; comprehensive feedback report delivered.
+- **Child Safety Impact**: Direct, in-person engagement with a focused group of orphanages allows for rapid feedback on and iteration of child safety protocols, ensuring our digital and physical safety measures are effective before a national rollout.
+
+### Key Enabler: Platform Infrastructure Foundation
+**Goal**: Establish robust deployment and monitoring infrastructure **to support the Bandung Pilot Launch** and ensure reliable, secure, and scalable child welfare service delivery.
 - **Deliverables**: 
   - **GitOps Deployment Implementation** (4-month timeline per [docs/architecture/decisions/009-deployment-orchestration.md](docs/architecture/decisions/009-deployment-orchestration.md))
     - Phase 1: ArgoCD foundation setup with RBAC and secret management (Month 1)
-    - Phase 2: Multi-environment orchestration with blue-green deployment (Month 2)
-    - Phase 3: Security integration and stakeholder workflows (Month 3)
+    - Phase 2: Multi-environment orchestration with blue-green deployment to support pilot testing and production launch (Month 2)
+    - Phase 3: Security integration and stakeholder workflows tailored for pilot users (Month 3)
     - Phase 4: Performance optimization and team training (Month 4)
   - **Performance Monitoring Deployment** (3-month timeline per [docs/architecture/decisions/022-performance-monitoring-selection.md](docs/architecture/decisions/022-performance-monitoring-selection.md))
-    - Month 1: DataDog APM core setup with distributed tracing
-    - Month 2: Advanced configuration with stakeholder-specific dashboards
-    - Month 3: Optimization and comprehensive team training
-- **Success Criteria**: 99.9% deployment success rate, zero-downtime deployments, 100% service monitoring coverage
-- **Child Safety Impact**: Reliable infrastructure ensures continuous availability of child protection services with rapid emergency response capabilities
+    - Month 1: DataDog APM core setup with distributed tracing for all services.
+    - Month 2: Advanced configuration with dashboards specifically monitoring the health and performance of the Bandung pilot.
+    - Month 3: Optimization and comprehensive team training.
+- **Success Criteria**: 99.9% deployment success rate for pilot-related services; zero-downtime deployments; 100% service monitoring coverage for the pilot environment.
+- **Child Safety Impact**: Reliable infrastructure ensures continuous availability of child protection services and provides the stable foundation required for a safe and successful pilot launch.
 
 ### Mid-term: Q2 2025 — Impact Measurement & Optimization
 **Goal**: Operationalize comprehensive impact dashboards and performance-driven optimization for child welfare outcomes
